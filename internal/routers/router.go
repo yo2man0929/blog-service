@@ -10,9 +10,9 @@ import (
 
 	"github.com/gin-gonic/gin"
 	_ "github.com/go-programming-tour-book/blog-service/docs"
-	"github.com/go-programming-tour-book/blog-service/internal/middleware"
-	"github.com/go-programming-tour-book/blog-service/internal/routers/api"
-	"github.com/go-programming-tour-book/blog-service/internal/routers/api/v1"
+	"blog-service/internal/middleware"
+	"blog-service/internal/routers/api"
+	"blog-service/internal/routers/api/v1"
 	ginSwagger "github.com/swaggo/gin-swagger"
 	"github.com/swaggo/gin-swagger/swaggerFiles"
 )

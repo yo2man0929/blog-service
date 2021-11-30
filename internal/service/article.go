@@ -1,8 +1,8 @@
 package service
 
 import (
-	"github.com/go-programming-tour-book/blog-service/internal/dao"
-	"github.com/go-programming-tour-book/blog-service/internal/model"
+	"blog-service/internal/dao"
+	"blog-service/internal/model"
 	"github.com/go-programming-tour-book/blog-service/pkg/app"
 )
 
